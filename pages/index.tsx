@@ -78,7 +78,7 @@ const Home: NextPage = () => {
                       contract.call("buyCoffee", [message, name], {value: ethers.utils.parseEther("0.01")})
                     }}
                     onSuccess={() => clearValues()}
-                  >{"Buy a coffee 0.01ETH"}</Web3Button>
+                  >{"Buy a coffee 0.01RBNT"}</Web3Button>
                 ) : (
                   <Text>Please connect your wallet</Text>
                 )}
